@@ -12,7 +12,6 @@ namespace TelCo.ColorCoder
     /// </summary>  
     static class Program
     {
-        private static Color[] colorMapMajor;
         /// Test code for the class 
         private static void Main(string[] args)
         {
