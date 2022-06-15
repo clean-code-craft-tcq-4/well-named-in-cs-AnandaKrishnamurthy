@@ -11,8 +11,8 @@ namespace TelCo.ColorCoder
     /// mapping of pair number to color and color to pair number.
     /// </summary>  
     static class Program
-    {
-        /// Test code for the class 
+    { 
+       /// Test code for the class 
         private static void Main(string[] args)
         {
             ColorPair.Colorcodemanual();
