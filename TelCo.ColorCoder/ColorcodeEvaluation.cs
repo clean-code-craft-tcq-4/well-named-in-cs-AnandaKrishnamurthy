@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Text;
 
 namespace TelCo.ColorCoder
 {
@@ -83,9 +84,7 @@ namespace TelCo.ColorCoder
             for (int pairNumber = 1; pairNumber <= 25; pairNumber++)
             {             
                 testPair2 = GetColorFromPairNumber(pairNumber);                
-                stringBuilder.AppendFormat(format, pairNumber, testPair2.majorColor.Name, testPair2.minorColor.Name);
-
-               
+                stringBuilder.AppendFormat(format, pairNumber, testPair2.majorColor.Name, testPair2.minorColor.Name);               
             }
             Console.WriteLine(stringBuilder);
         }
